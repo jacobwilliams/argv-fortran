@@ -1,0 +1,18 @@
+name = "argv-fortran"
+author = "Jacob Williams"
+copyright  = "Copyright (c) 2022, Jacob Williams"
+license = "BSD-3"
+description = "A better get_command_argument for Fortran"
+homepage = "https://github.com/jacobwilliams/argv-fortran"
+keywords = ["argv"]
+
+[build]
+auto-executables = false
+auto-examples = false
+auto-tests = false
+
+[library]
+source-dir = "src"
+
+[install]
+library = true
